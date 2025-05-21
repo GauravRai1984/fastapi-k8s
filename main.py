@@ -3,4 +3,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, Kubernetes"}
+    return {"message": "Hello, Kubernetes - Deployed via jenkins"}

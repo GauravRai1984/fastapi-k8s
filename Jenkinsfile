@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git 'https://github.com/GauravRai1984/fastapi-k8s.git'
+        git(url:'https://github.com/GauravRai1984/fastapi-k8s.git', branch: 'main')
       }
     }
 
